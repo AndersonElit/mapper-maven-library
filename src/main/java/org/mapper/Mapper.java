@@ -1,4 +1,4 @@
-package org.example;
+package org.mapper;
 
 import java.lang.reflect.Field;
 
