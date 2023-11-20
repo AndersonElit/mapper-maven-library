@@ -1,9 +1,9 @@
-package org.mapper;
+package io.mapper;
 
+import io.mapper.utils.Person;
 import org.junit.Test;
-import org.mapper.utils.Data;
-import org.mapper.utils.Person;
-import org.mapper.utils.PersonDto;
+import io.mapper.utils.Data;
+import io.mapper.utils.PersonDto;
 import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

@@ -1,4 +1,4 @@
-package org.mapper.utils;
+package io.mapper.utils;
 
 import java.util.List;
 

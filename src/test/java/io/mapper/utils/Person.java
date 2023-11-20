@@ -1,4 +1,4 @@
-package org.mapper.utils;
+package io.mapper.utils;
 
 import lombok.*;
 
@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class PersonDto {
+public class Person {
     private String name;
-    private ContactDto contact;
+    private Contact contact;
 }

@@ -1,4 +1,4 @@
-package org.mapper;
+package io.mapper;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
