@@ -1,6 +1,8 @@
 package org.mapper;
 
 import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Mapper {
 
@@ -34,6 +36,12 @@ public class Mapper {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static <S, D> List<D> mapAll(List<S> sourceList, Class<D> destinationType) {
+        return sourceList.stream()
+                .map(source -> map(source, destinationType))
+                .toList();
     }
 
 }
